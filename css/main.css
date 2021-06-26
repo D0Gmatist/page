@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	min-width: 320px;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	background: #ff5196;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+
+}
+
+@media (min-width: 425px) {
+
+	.container {
+		background: #cc85f8;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.container {
+		background: #85d7f8;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+	.container {
+		background: #c8f885;
+	}
+
+}
+
+@media (min-width: 1400px) {
+
+	.container {
+		max-width: 1400px;
+		background: #f88585;
+	}
+
+}
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+h3.title {
+	display: block;
+	font-size: 32px;
+	position: relative;
+	margin: 0 auto;
+}
+
+@media (min-width: 425px) {
+	h3.title {
+		font-size: 40px;
+
+	}
+
+}
+
+@media (min-width: 768px) {
+	h3.title {
+		font-size: 50px;
+
+	}
+
+}
+
+.grid-item {
+	background: #ffffff;
+	height: 483px;
+	width: 100%;
+
+}
+
+@media (min-width: 425px) {
+
+	.grid-item {
+		width: 100%;
+
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.grid-item {
+		width: calc(100% / 2);
+
+	}
+
+}
+
+@media (min-width: 1400px) {
+	.grid-item {
+		width: calc(100% / 3);
+
+	}
+
+}
+
+
+.grid-item:nth-child(2n) {
+	background: #616161;
+}
