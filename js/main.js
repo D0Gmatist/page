@@ -85,7 +85,7 @@ let pageClass = {
 	
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
 	pageClass.ready();
 	
 }, false);
